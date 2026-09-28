@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    Allows WeighPoint to send goal-weight SMS notifications
+    after the user grants runtime permission.
+    -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!--
+    Declares optional telephony support for SMS functionality.
+    The feature is not required so the rest of WeighPoint can
+    run normally on devices without telephony hardware.
+    -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.WeightTrackingApp_WeighPoint_Roger_Fisher">
+
+        <!--
+        LoginActivity is the launcher activity and provides
+        account creation and authentication for WeighPoint.
+        -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <!--
+        Displays the user's current weight, goal progress,
+        and most recent weight entries.
+        -->
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false" />
+
+        <!--
+        Displays SQLite weight history records and allows
+        users to select entries for editing or deletion.
+        -->
+        <activity
+            android:name=".WeightHistoryActivity"
+            android:exported="false" />
+
+        <!--
+        Allows users to create new weight records or update
+        existing records stored in the SQLite database.
+        -->
+        <activity
+            android:name=".AddWeightActivity"
+            android:exported="false" />
+
+        <!--
+        Allows users to save a goal weight and view
+        calculated progress toward that goal.
+        -->
+        <activity
+            android:name=".GoalSettingsActivity"
+            android:exported="false" />
+
+        <!--
+        Manages SMS preferences and requests the runtime
+        SEND_SMS permission when notifications are enabled.
+        -->
+        <activity
+            android:name=".SMSPermissionActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

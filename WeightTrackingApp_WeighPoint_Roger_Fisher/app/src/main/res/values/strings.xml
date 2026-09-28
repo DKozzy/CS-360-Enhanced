@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App -->
+    <string name="app_name">WeighPoint</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_goals">Goals</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Login Screen -->
+    <string name="login_subtitle">Track your progress, one day at a time.</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Log In</string>
+    <string name="new_user_prompt">First time using WeighPoint?</string>
+    <string name="create_account_button">Create New Account</string>
+    <string name="login_privacy_message">Your account keeps your weight history and goals private.</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_default_greeting">Welcome to WeighPoint!</string>
+    <string name="today_progress">Today\'s Progress</string>
+    <string name="default_weight">— lbs</string>
+    <string name="default_progress">0% Complete</string>
+    <string name="default_goal_weight">Goal Weight: — lbs</string>
+    <string name="recent_entries">Recent Entries</string>
+    <string name="motivation_message">Keep going! Every entry is progress.</string>
+
+    <!-- Shared Weight Text -->
+    <string name="weight_label">Weight (lbs)</string>
+    <string name="weight_hint">Enter your weight</string>
+    <string name="date_label">Date</string>
+    <string name="date_hint">Select a date</string>
+    <string name="date_header">Date</string>
+    <string name="weight_header">Weight</string>
+    <string name="no_entry">—</string>
+
+    <!-- Add / Edit Weight Screen -->
+    <string name="add_weight_title">Add Weight</string>
+    <string name="add_weight_subtitle">Record today\'s progress.</string>
+    <string name="notes_optional">Notes (Optional)</string>
+    <string name="notes_hint">Add a note about today\'s progress</string>
+    <string name="save_weight">Save Weight</string>
+    <string name="edit_weight_title">Edit Weight</string>
+    <string name="edit_weight_subtitle">Update your recorded progress.</string>
+    <string name="update_weight_button">Update Weight</string>
+
+    <!-- Weight History Screen -->
+    <string name="weight_history_title">Weight History</string>
+    <string name="weight_history_subtitle">Track your journey one weigh-in at a time.</string>
+    <string name="delete_header">Delete</string>
+    <string name="add_weight_button">+ Add Weight</string>
+
+    <!-- Goal Settings Screen -->
+    <string name="goal_settings_title">Goal Settings</string>
+    <string name="goal_settings_subtitle">Stay motivated by tracking your target.</string>
+    <string name="current_weight_label">Current Weight</string>
+    <string name="no_weight_recorded_hint">No weight recorded</string>
+    <string name="goal_weight_label">Goal Weight</string>
+    <string name="goal_weight_hint">Enter your goal weight</string>
+    <string name="progress_label">Progress</string>
+    <string name="pounds_remaining_label">Pounds Remaining</string>
+    <string name="not_available">—</string>
+    <string name="save_goal_button">Save Goal</string>
+    <string name="progress_zero">0% complete</string>
+
+    <!-- SMS Notification Screen -->
+    <string name="sms_notifications">SMS Notifications</string>
+    <string name="sms_subtitle">Stay informed when you reach important milestones.</string>
+    <string name="goal_weight_alerts">Goal Weight Alerts</string>
+    <string name="goal_weight_alerts_description">Receive a text message when you reach your goal weight.</string>
+    <string name="enable_goal_weight_alerts">Enable goal weight alerts</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="phone_number_hint">Enter your phone number</string>
+    <string name="enable_sms_notifications">Enable SMS Notifications</string>
+    <string name="permission_status">Permission Status</string>
+    <string name="sms_permission_required">SMS permission required</string>
+    <string name="sms_permission_granted">SMS permission granted</string>
+    <string name="sms_permission_denied">SMS permission denied</string>
+    <string name="sms_permission_denied_explanation">WeighPoint will continue to work if permission is denied, but text notifications will not be sent.</string>
+
+    <!-- SMS Status Messages -->
+    <string name="enter_phone_number">Please enter a phone number.</string>
+    <string name="sms_alerts_enabled">SMS goal alerts enabled.</string>
+    <string name="sms_alerts_disabled">SMS goal alerts disabled.</string>
+    <string name="sms_settings_save_failed">Unable to save SMS settings.</string>
+
+    <!-- Dashboard Dynamic Text -->
+    <string name="welcome_user">Welcome, %1$s!</string>
+    <string name="welcome_generic">Welcome!</string>
+    <string name="no_weight_recorded">No weight recorded</string>
+    <string name="goal_weight_value">Goal Weight: %1$.1f lbs</string>
+    <string name="goal_weight_not_set">Goal Weight: Not Set</string>
+    <string name="progress_complete">%1$d%% Complete</string>
+    <string name="dash_placeholder">—</string>
+    <string name="weight_value">%1$.1f lbs</string>
+
+    <!-- Weight History Dynamic / Dialog Text -->
+    <string name="no_weight_history">No weight entries yet.</string>
+    <string name="delete_entry_description">Delete weight entry</string>
+    <string name="delete_weight_title">Delete Weight Entry</string>
+    <string name="delete_weight_message">Are you sure you want to delete this weight entry?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="weight_deleted">Weight entry deleted.</string>
+    <string name="weight_delete_failed">Unable to delete weight entry.</string>
+    <string name="user_identification_failed">Unable to identify the logged-in user.</string>
+
+    <!-- Weight history analytics controls -->
+    <string name="analytics_all_time">All Time</string>
+    <string name="analytics_last_7_days">Last 7 Days</string>
+    <string name="analytics_last_30_days">Last 30 Days</string>
+    <string name="analytics_last_90_days">Last 90 Days</string>
+
+    <string name="analytics_newest_first">Newest First</string>
+    <string name="analytics_oldest_first">Oldest First</string>
+    <string name="analytics_lowest_weight">Lowest Weight</string>
+    <string name="analytics_highest_weight">Highest Weight</string>
+
+    <!-- Weight analytics summary -->
+    <string name="analytics_trend_empty">Trend: --</string>
+    <string name="analytics_average_empty">Average: --</string>
+    <string name="analytics_recent_average_empty">Recent Average: --</string>
+    <string name="analytics_change_empty">Total Change: --</string>
+    <string name="analytics_range_empty">Range: --</string>
+
+    <string name="analytics_average_value">Average: %1$.1f lbs</string>
+    <string name="analytics_recent_average_value">Recent Average: %1$.1f lbs</string>
+    <string name="analytics_change_value">Total Change: %1$+.1f lbs</string>
+    <string name="analytics_range_value">Range: %1$.1f - %2$.1f lbs</string>
+    <string name="analytics_trend_value">Trend: %1$s</string>
+
+    <!-- Weight trend descriptions -->
+    <string name="trend_losing">Losing</string>
+    <string name="trend_gaining">Gaining</string>
+    <string name="trend_stable">Stable</string>
+    <string name="trend_insufficient_data">Not enough data</string>
+
+    <!-- Weight analytics interface -->
+    <string name="analytics_title">Weight Analytics</string>
+    <string name="analytics_subtitle">Filter and analyze your recorded progress.</string>
+
+    <string name="analytics_date_range_description">Weight history date range</string>
+    <string name="analytics_sort_order_description">Weight history sort order</string>
+
+</resources>
